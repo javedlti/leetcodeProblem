@@ -10,6 +10,10 @@ namespace LeetCodeSolutions
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello");
+            HR_RepeatedString hR_Repeated = new HR_RepeatedString();
+            var output = hR_Repeated.CountACharRepeatedString('a', "ababc", 100);
+            Console.WriteLine(output);
         }
     }
 }
