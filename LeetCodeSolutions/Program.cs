@@ -11,7 +11,7 @@ namespace LeetCodeSolutions
         static void Main(string[] args)
         {
             //HR_RepeatedString hR_Repeated = new HR_RepeatedString();
-            //var output = hR_Repeated.CountACharRepeatedString('a', "ababc", 100);
+            //var output = hR_Repeated.CountACharRepeatedString("ababc", 100);
             //Console.WriteLine(output);
 
             UtopianTree ut = new UtopianTree();

@@ -13,26 +13,26 @@ namespace LeetCodeSolutions
     /// </summary>
     public class HR_RepeatedString
     {
-        public int CountACharRepeatedString(char charInput, string substr,int lenthofstring)
+        public long CountACharRepeatedString(string substr,long lenthofstring)
         {
-           
+            char charInput = 'a';
             int TotalCharInSubstr=CharInString(charInput, substr);
            
-            int countOfchar;
-            int occuranceofSubstr = 1;
+            long countOfchar;
+            long occuranceofSubstr = 1;
             
             if (substr.Length == lenthofstring)
                 occuranceofSubstr = 1;
             else
-                occuranceofSubstr = lenthofstring / substr.Length;
+                occuranceofSubstr = lenthofstring / (long)substr.Length;
             
-            int remainingstrLength = lenthofstring - (substr.Length * occuranceofSubstr);
+            long remainingstrLength = lenthofstring - (substr.Length * occuranceofSubstr);
             
             countOfchar = TotalCharInSubstr * occuranceofSubstr;
             
             if(remainingstrLength>0)
             {
-               var newSubStr=substr.Substring(0, remainingstrLength);
+               var newSubStr=substr.Substring(0, (int)remainingstrLength);
                countOfchar += CharInString(charInput, newSubStr);
             }
             return countOfchar;
