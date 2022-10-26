@@ -9,9 +9,9 @@ namespace LeetCodeSolutions
     class Program
     {
         static void Main(string[] args)
-        {
+        {//73,67,38,
 
-            MinMaxSum.MinMaxSumCalcularion(new List<int> { 7, 69, 2, 221, 8974 });
+            var result = NumberLineJump.JumpCalculation(0, 2, 5, 3);
             Console.ReadLine();
         }
     }

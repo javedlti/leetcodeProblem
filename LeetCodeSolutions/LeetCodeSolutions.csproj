@@ -46,9 +46,11 @@
     <Compile Include="AveryBigSum.cs" />
     <Compile Include="CompareTheTriplet.cs" />
     <Compile Include="DiagonalDiffrence.cs" />
+    <Compile Include="GradingProblem.cs" />
     <Compile Include="HR_RepeatedString.cs" />
     <Compile Include="JumpingOnCloud.cs" />
     <Compile Include="MinMaxSum.cs" />
+    <Compile Include="NumberLineJump.cs" />
     <Compile Include="PlusMinus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
